@@ -19,15 +19,6 @@
     margin-left: -4rem;
 }
 
-.content:hover {
-    transform: scale(1.04);
-    transition: .3s ease-in-out;
-    cursor: pointer;
-}
-
-
-/* for CoinsItem.js */
-
 .coin-row {
     display: flex;
     justify-content: space-between;
@@ -55,6 +46,8 @@ img {
     display: flex;
     align-items: center;
 }
+
+
 
 @media screen and (max-width: 720px) {
     .hide-mobile {

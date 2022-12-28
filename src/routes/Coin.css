@@ -10,7 +10,7 @@
 }
 
 .rank {
-    margin: .5rem 0;
+    margin: .5 0;
 }
 
 .rank-btn {
@@ -23,7 +23,7 @@
 
 .info {
     display: grid;
-    grid-template-columns: repeat((2, 1fr));
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .info .coin-heading {
@@ -63,7 +63,6 @@ th {
     width: 100%;
 }
 
-
 .stats .row {
     display: flex;
     justify-content: space-between;
@@ -91,7 +90,8 @@ th {
         grid-template-columns: 1fr;
     }
 
-    td, th {
+    td,
+    th {
         padding: 3px;
     }
 
