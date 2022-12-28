@@ -9,6 +9,12 @@
     border-radius: 8px;
 }
 
+.content:hover {
+    transform: scale(1.04);
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
 .rank {
     margin: .5 0;
 }
